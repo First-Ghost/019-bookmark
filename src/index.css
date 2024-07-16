@@ -1,13 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-img {
+  position: absolute;
+  width: 1000px;
+  height: 352px;
+  left: 925px;
+  top: 336px;
+  z-index: -1;
+
+  background: #5267df;
+  border-radius: 316.5px;
+}
+
+.bg-fe {
+  position: absolute;
+  width: 1000px;
+  height: 352px;
+  left: -360px;
+  top: 1196px;
+  z-index: -1;
+
+  background: #5267df;
+  border-radius: 316.5px;
+}
+
+.bg-fe-mobile {
+  position: absolute;
+  width: 577px;
+  height: 203px;
+  left: -269px;
+  top: 1338px;
+  z-index: -1;
+
+  background: #5267df;
+  border-radius: 316.5px;
+}
+
+.logo-text {
+  fill: #ffffff;
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(38%) saturate(3303%) hue-rotate(326deg)
+    brightness(101%) contrast(96%);
+}
+
+.bg-hsl {
+  background-color: hsla(229, 31%, 21%, 0.89);
 }
